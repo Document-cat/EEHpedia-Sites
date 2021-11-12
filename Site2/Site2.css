@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+  'H H H H H H'
+  'L M M M M R'
+  'F F F F F F'
+}
+
+.header {
+  grid-area: H;
+}
+
+.main {
+  grid-area: M;
+}
+
+.right {
+  grid-area: R;
+}
+
+.left {
+  grid-area: L;
+}
+
+.footer {
+  grid-area: F;
+}
